@@ -1,0 +1,10 @@
+.logos{
+    margin: 10px;
+}
+.plataformas{
+    border-radius: 5px 2px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}

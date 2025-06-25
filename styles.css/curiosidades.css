@@ -1,14 +1,43 @@
 .caratulas{
-    margin: 20px;
-    border-radius: 10px;
-}
-.comentarios{
-    margin: 15px;
+margin-top: 30px;
+border-radius: 10px;
 }
 .personas{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: antiquewhite ;
-    margin: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: antiquewhite ;
+margin: 20px;
+}
+#teorias{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+gap: 30px;
+}
+#contenedorVideos{
+display: flex;
+flex-direction: column;
+}
+.parrafoTeorias{
+width: 700px;
+padding: 50px;
+}
+iframe{
+padding: 20px;
+}
+#series , #conexion{
+margin: auto;
+width: fit-content;
+width: 900px;
+text-align: center;
+padding: 10px;
+}
+#ultimo{
+margin: auto;
+width: 1000px;
+}
+.titulo{
+text-align: center;
 }

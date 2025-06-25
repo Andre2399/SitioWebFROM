@@ -1,3 +1,18 @@
 .personaje{
-    text-decoration: underline;
+text-decoration: underline;
+}
+#titulo{
+margin: auto;
+width: fit-content;
+margin-bottom: 30px;
+padding: 30px;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+}
+div{
+    width: 800px;
 }

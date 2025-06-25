@@ -30,12 +30,7 @@
     <header>
       <h1 id="encabezado">La inquietante serie de televisión: FROM</h1>
       <div class="logo">
-        <img
-          src="../pictures/logo_From.webp"
-          alt="logo_From"
-          width="900"
-          height="150"
-        />
+        <img src="../pictures/logo_From.webp" alt="logo_From" />
       </div>
       <nav>
         <a href="#panel_hamburguesa" id="abrir"
@@ -68,34 +63,52 @@
     </header>
     <a class="atajo" href="#final">Ir hacia el final de la página</a>
     <main>
-      <section>
-        <h2>Las teorías</h2>
-        <p>
-          Resulta casi imposible no formular todo tipo de teorías al ver esta
-          serie.
-        </p>
-        <p>
-          Sus múltiples incógnitas, sucesos sin mucho sentido, y esas delicadas
-          pistas que siembran un pequeño sentimiento de certeza, hacen imposible
-          no congeturar locas teorías.
-        </p>
-        <p>
-          En redes sociales se ha librado una batalla de hipótesis entre los
-          miles de espectadores.
-        </p>
-        <p>
-          Es así que a lo largo de toda la serie, se han ido planteando posibles
-          escenarios explicativos, pero al final nadie sabe con certeza la
-          verdadera historia detrás de toda la trama.
-        </p>
-        <img
-          class="caratulas"
-          src="../pictures/from_teorias.jpg"
-          alt="imagen_video_teorias"
-          width="400"
-        />
+      <section id="teorias">
+        <div class="parrafoTeorias">
+          <h2>Las teorías</h2>
+          <p>
+            Resulta casi imposible no formular todo tipo de teorías al ver esta
+            serie.
+          </p>
+          <p>
+            Sus múltiples incógnitas, sucesos sin mucho sentido, y esas
+            delicadas pistas que siembran un pequeño sentimiento de certeza,
+            hacen imposible no congeturar locas teorías.
+          </p>
+          <p>
+            En redes sociales se ha librado una batalla de hipótesis entre los
+            miles de espectadores.
+          </p>
+          <p>
+            Es así que a lo largo de toda la serie, se han ido planteando
+            posibles escenarios explicativos, pero al final nadie sabe con
+            certeza la verdadera historia detrás de toda la trama.
+          </p>
+        </div>
+        <div id="contenedorVideos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/QTc5K-g4HwM?si=txZ7rIn5CVltPhK4&amp;start=30"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/QIhL2SRRuaI?si=dE7UMDswiwmPMUAp&amp;start=29"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
-      <section>
+      <section id="series">
         <h2>Conexión con otras series icónicas</h2>
         <p>
           No podemos negar la conexión que tiene From, con series como Lost y
@@ -115,7 +128,7 @@
           width="500"
         />
       </section>
-      <section>
+      <section id="conexion">
         <h2>Conexión con Stephen King</h2>
         <p>
           Jack Bender ha expresando que la serie le debe mucho a la obra de
@@ -136,14 +149,13 @@
           width="300"
         />
       </section>
-      <section>
-        <h2>Comentarios y Críticas</h2>
-
+      <section id="ultimo">
+        <h2 class="titulo" >Comentarios y Críticas</h2>
         <p>
           Los internautas han dejado algunas críticas y comentarios en internet,
           compartiendo sus opiniones e impacto personal sobre la serie.
         </p>
-        <ul class="comentarios">
+        <ul>
           <li class="personas">
             Eric B. dijo:
             <q

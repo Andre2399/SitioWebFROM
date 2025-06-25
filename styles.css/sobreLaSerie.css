@@ -1,7 +1,44 @@
-.mapa{
-    text-align: center;
+
+.creadores{
+margin:20px;
+border-radius: 10px;
+} 
+figcaption{
+color: aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+#articulos12{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 50px;
+margin-top: 50px;
+}
+#articulo1, #articulo2{
+width: 600px;
+} 
+.familia{
+width: 400px;
+}
+#articulo3{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.titulo0 , .titulo1{
+margin: auto;
+width: fit-content;
+padding: 50px;
+}
+#articulos45{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+#articulo5{
+width: 870px;
 }
 .creadores{
-    margin:20px;
-    border-radius: 10px;
+display: block;
+margin: 0 auto;
 }

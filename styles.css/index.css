@@ -1,6 +1,37 @@
-.body_index{
-    text-align: center;
+.portada2{
+height: 500px;
+width: 700px;
+/* grid-area: portada2; */
 }
-.portada{
-margin:20px;
+/* main{
+display: inline-grid;
+grid-template-columns: auto;
+grid-template-rows: 300px auto 300px auto;
+grid-template-areas: 
+".parrafos1" ".portada1"
+"portada2" ".parrafos2";
 }
+.parrafos1{
+    grid-area: parrafos1;
+}
+.parrafos2{
+    grid-area: parrafos2;
+}
+ */
+#seccion1{
+display:grid;
+grid-template-columns: 500px auto;
+margin: 0 auto;
+max-width: 1000px;
+gap: 50px;
+margin: 50px auto 0 auto;
+}
+#seccion2{
+display: grid;
+grid-template-columns: auto 500px;
+margin: 0 auto;
+max-width: 1000px;
+gap: 50px;
+margin: 50px auto 0 auto;
+}
+

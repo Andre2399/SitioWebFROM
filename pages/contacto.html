@@ -65,14 +65,38 @@
     </header>
     <main>
       <h2>Enterate de todas las novedades de FROM</h2>
-      <p>Enterate antes que nadie de las últimas novedades!</p>
-      <p>Nombre completo:</p>
-      <p>Email:</p>
-      <p>Fecha de nacimiento:</p>
-      <p>País:</p>
-      <h2>Dejanos tus consultas y comentarios</h2>
-      <p>Acá:</p>
-
+      <p>
+        Enterate antes que nadie de las últimas novedades! Ingresá tus datos y
+        suscribite al canal online
+      </p>
+      <fieldset>
+        <legend>Datos personales</legend>
+      <form action="./confirmacion.html">
+        <label
+          >Ingresa tu nombre:
+          <input type="text" autocomplete="off" required name="nombre" />
+        </label>
+        <label
+          >Ingresa tu apellido:
+          <input type="text" autocomplete="off" required name="apellido" />
+        </label>
+        <label
+          >Ingrese su correo electrónico:
+          <input
+            type="email"
+            autocomplete="off"
+            required
+            placeholder="No te olvides el @"
+            name="email"
+          />
+        </label>
+        <label
+          >No dudes en dejarnos cualquier colsulta o comentario!
+          <textarea name="mensaje" cols="30" rows="3"></textarea>
+        </label></fieldset>
+        <input type="reset" value="borrar" />
+        <button type="submit">Enviar datos</button>
+      </form>
       <h2>Plataformas donde ver FROM</h2>
       <ul>
         <li>

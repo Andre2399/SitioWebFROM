@@ -2,9 +2,6 @@
 color: rgb(219, 40, 40);
 font-size: 25px;
 }
-.listas{
-margin: 15px;
-}
 #titulo , .parrafos{
 margin: auto;
 width: fit-content;
@@ -17,8 +14,15 @@ justify-content: center;
 gap: 50px;
 }
 div{
-width: 700px;
+width: 800px;
 }
 iframe{
 filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
+}
+.foto{
+width: 500px;
+filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
+}
+.foto:hover{
+transform: scale(1.2);
 }

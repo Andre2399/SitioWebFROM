@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="panel_hamburguesa">
@@ -30,7 +36,7 @@
       >
     </div>
     <header>
-      <h1 id="encabezado">La inquietante serie de televisión: FROM</h1>
+      <h1 id="encabezado">LA INQUIETANTE SERIE DE TELEVISIÓN: FROM</h1>
       <div class="logo">
         <img src="../pictures/logo_From.webp" alt="logo_From" />
       </div>
@@ -64,47 +70,49 @@
       </nav>
     </header>
     <main>
-      <h2>Enterate de todas las novedades de FROM</h2>
-      <p>
-        Enterate antes que nadie de las últimas novedades! Ingresá tus datos y
-        suscribite al canal online
-      </p>
+      <div class="primero">
+        <h2>Enterate de todas las novedades de FROM</h2>
+        <p>
+          Enterate antes que nadie de las últimas novedades! Ingresá tus datos y
+          suscribite al canal online
+        </p>
+      </div>
       <fieldset>
-        <legend>Datos personales</legend>
-      <form action="./confirmacion.html">
-        <label
-          >Ingresa tu nombre:
-          <input type="text" autocomplete="off" required name="nombre" />
-        </label>
-        <label
-          >Ingresa tu apellido:
-          <input type="text" autocomplete="off" required name="apellido" />
-        </label>
-        <label
-          >Ingrese su correo electrónico:
-          <input
-            type="email"
-            autocomplete="off"
-            required
-            placeholder="No te olvides el @"
-            name="email"
-          />
-        </label>
-        <label
-          >No dudes en dejarnos cualquier colsulta o comentario!
-          <textarea name="mensaje" cols="30" rows="3"></textarea>
-        </label></fieldset>
-        <input type="reset" value="borrar" />
-        <button type="submit">Enviar datos</button>
-      </form>
+        <legend class="legend">Datos personales</legend>
+        <form action="./confirmacion.html">
+          <label
+            >Ingresa tu nombre:
+            <input type="text" autocomplete="off" required name="nombre" />
+          </label>
+          <label
+            >Ingresa tu apellido:
+            <input type="text" autocomplete="off" required name="apellido" />
+          </label>
+          <label
+            >Ingrese su correo electrónico:
+            <input
+              type="email"
+              autocomplete="off"
+              required
+              placeholder="No te olvides el @"
+              name="email"
+            />
+          </label>
+          <label
+            >No dudes en dejarnos cualquier colsulta o comentario!
+            <textarea name="mensaje" cols="30" rows="3"></textarea>
+          </label>
+          <input type="reset" value="borrar" />
+          <button type="submit">Enviar datos</button>
+        </form>
+      </fieldset>
       <h2>Plataformas donde ver FROM</h2>
-      <ul>
-        <li>
+      <article id="links">
+        <div>
           <img
             class="logos"
             src="../pictures/logo_MercadoLibre.png"
             alt="logo_Mercado_libre"
-            width="150"
           />
           <a
             target="_blank"
@@ -112,11 +120,10 @@
             href="https://play.mercadolibre.com.ar/ver/from/4dad10fd494f44c685e9053338b50cc0"
             >Mirá la serie con Mercado Play</a
           >
-        </li>
-        <li>
+        </div>
+        <div>
           <img
             class="logos"
-            width="150"
             src="../pictures/logo_PrimeVideo.png"
             alt="logo_prime_video"
           />
@@ -126,25 +133,19 @@
             href="https://www.primevideo.com/-/es/detail/Origen/0JIXU72UA5G5MWKASJNMQG2P1N"
             >Mirala aquí por Prime Video</a
           >
-        </li>
-        <li>
-          <img
-            class="logos"
-            width="150"
-            src="../pictures/logo_max.jpg"
-            alt="logo_max"
-          />
+        </div>
+        <div>
+          <img class="logos" src="../pictures/logo_max.jpg" alt="logo_max" />
           <a
             target="_blank"
             class="plataformas"
             href="https://www.max.com/es/es/shows/from/6d6ffafc-d703-4813-ae1d-b253559c60b4"
             >Mirala en Max</a
           >
-        </li>
-        <li>
+        </div>
+        <div>
           <img
             class="logos"
-            width="150"
             src="../pictures/logo_movistar.png"
             alt="logo_Movistar"
           />
@@ -154,8 +155,8 @@
             href="https://www.movistarplus.es/series/from/ficha?tipo=E&id=3244640#:~:text=From%20(2024)%20%7C%20Movistar%20Plus%2B"
             >Si sos cliente Movistar!</a
           >
-        </li>
-      </ul>
+        </div>
+      </article>
     </main>
     <footer>
       DERECHOS RESERVADOS -ALUMNA AGUERRIDO ANDREA -CARRERA ANALISTA DE SISTEMAS

@@ -1,0 +1,48 @@
+body{
+background-image: url(../pictures/stacked-peaks-haikei.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: rgb(150, 168, 154);
+}
+#mensaje{
+width: 900px;
+border-style: groove;
+border-color: rgb(190, 158, 158);
+display: inline-block;
+position: absolute;
+left: 27%;
+top: 15%;
+}
+a{
+border-radius: 5px 2px;
+background-color: aliceblue;
+color: black;
+font-family: cursive;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+position: absolute;
+top: 35%;
+left: 44%;
+}
+img{
+width: 500px;
+filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
+}
+figure{
+display: inline-block;
+position: absolute;
+left: 35%;
+bottom: 25%;
+color: aliceblue;
+}
+footer{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(172, 147, 152);
+margin: 20px;
+display: inline-block;
+position: absolute;
+bottom: 0;
+left: 25%;
+}

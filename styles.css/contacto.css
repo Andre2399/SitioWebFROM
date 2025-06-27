@@ -1,10 +1,60 @@
 .logos{
-    margin: 10px;
+width: 150px;
+filter: drop-shadow(0 0 0.75rem rgb(194, 137, 149));
+}
+.logos:hover{
+transform: scale(1.1);
 }
 .plataformas{
-    border-radius: 5px 2px;
-    background-color: aliceblue;
-    color: black;
-    text-decoration: none;
-    padding: 3px;
+border-radius: 5px 2px;
+background-color: aliceblue;
+color: black;
+text-decoration: none;
+padding: 3px;
+}
+h2, .primero {
+margin: auto;
+width: fit-content;
+margin-top: 20px;
+text-decoration: underline;
+}
+fieldset{
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+border: solid rgb(22, 52, 107);
+background-color: rgba(153, 148, 148, 0.712);
+color:rgb(0, 0, 0) ;
+width: 800px;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+margin: auto;
+padding: 10px;
+margin-top: 50px;
+filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
+}
+form{
+display: flex;
+flex-direction: column;
+gap: 15px;
+border-radius: black;
+}
+.legend{
+color: rgb(255, 255, 255);
+text-align: center;
+}
+#links{
+margin: auto;
+width: 800px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+gap: 60px;
+padding: 50px;
+
+
+
 }

@@ -14,4 +14,13 @@ text-align: center;
 }
 img{
 border-radius: 20px;
+margin: 20px;
+}
+a{
+border-radius: 5px 5px;
+background-color: aliceblue;
+color: black;
+font-family: cursive;
+text-decoration: none;
+padding: 8px;
 }

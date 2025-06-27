@@ -28,13 +28,13 @@ height: auto;
 display: block;
 margin: 0 auto;
 padding: 30px 0;
+border-radius: 20px;
 }
 p{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: 600;
 font-style: normal;
 color: antiquewhite ;
-/* margin: 20px; */
 }
 a{
 color: aliceblue;
@@ -44,8 +44,6 @@ color: rgb(211, 211, 69);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 1000;
 font-size: 30px;
-/* margin: 20px;
-     */
 }
 h3{
 color: rgb(143, 79, 89);
@@ -57,7 +55,6 @@ text-decoration: underline;
 h4{
 color: rgb(175, 175, 122);
 font-size: 20px;
-/* margin: 20px; */
 }
 li{
 color: rgb(196, 203, 209);

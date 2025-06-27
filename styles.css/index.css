@@ -1,23 +1,7 @@
 .portada2{
 height: 500px;
 width: 700px;
-/* grid-area: portada2; */
 }
-/* main{
-display: inline-grid;
-grid-template-columns: auto;
-grid-template-rows: 300px auto 300px auto;
-grid-template-areas: 
-".parrafos1" ".portada1"
-"portada2" ".parrafos2";
-}
-.parrafos1{
-    grid-area: parrafos1;
-}
-.parrafos2{
-    grid-area: parrafos2;
-}
- */
 #seccion1{
 display:grid;
 grid-template-columns: 500px auto;

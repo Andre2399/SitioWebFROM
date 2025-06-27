@@ -59,11 +59,11 @@ color: rgb(175, 175, 122);
 font-size: 20px;
 /* margin: 20px; */
 }
-/* li{
+li{
 color: rgb(196, 203, 209);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 20px;
-} */
+}
 nav{
 position: fixed;
 top: 0;
@@ -84,7 +84,7 @@ right: -1000px;
 top: 13%;
 transition: right .5s ease;
 background-size: 100% 100%;
-height: 600px;
+height: 650px;
 width: 270px;
 background-color: #524a4aa6;
 border-style:double;

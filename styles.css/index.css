@@ -4,19 +4,37 @@ width: 700px;
 }
 #seccion1{
 display:grid;
-grid-template-columns: 500px auto;
-margin: 0 auto;
+grid-template-columns: 50% auto;
 max-width: 1000px;
-gap: 50px;
+gap: 6%;
 margin: 50px auto 0 auto;
 }
 #seccion2{
 display: grid;
-grid-template-columns: auto 500px;
+grid-template-columns: auto 50%;
 margin: 0 auto;
 max-width: 1000px;
-gap: 50px;
+gap: 5%;
 margin: 50px auto 0 auto;
+}
+@media(max-width:767px) { /* CSS para mobile */
+.portada2{
+display: none;
+}  
+#seccion2{
+grid-template-columns: 100%;
+text-align: center;
+}
+.portada1{
+width: 250px;
+}
+#seccion1{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
 }
 
 

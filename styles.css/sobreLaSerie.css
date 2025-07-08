@@ -6,18 +6,15 @@ figcaption{
 color: aliceblue;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.mapa:hover{
-transform: scale(1.1);
-}
 #articulos12{
 display: flex;
+flex-direction: column;
 justify-content: center;
+align-items: center;
 flex-wrap: wrap;
+text-align: center;
 gap: 50px;
 margin-top: 50px;
-}
-#articulo1, #articulo2{
-width: 600px;
 } 
 .familia{
 width: 400px;
@@ -55,4 +52,17 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
+}
+/* CSS para mobile */
+@media (max-width:767px) {
+iframe{
+width: 280px;
+height: 130px;
+}
+.familia{
+width: 250px;
+}
+.imagen{
+display: none;
+}
 }

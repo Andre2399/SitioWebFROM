@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <script src="../javaScript.js/sobreLaSerie.js"></script>
     <div id="panel_hamburguesa">
       <a href="../index.html">Volver a Home</a>
       <a href="../pages/elenco.html"
@@ -133,8 +134,34 @@
         </article>
       </div>
       <h3 class="titulo0">Algunos lugares icónicos de la serie</h3>
+      <div id="escenarios">
+        <p>
+          En esta serie los escenarios juegan un papel fundamental para
+          construir el misterio y la tensión.
+        </p>
+        <p>
+          La mansión Colony House es un refugio comunal donde conviven algunos
+          habitantes bajo reglas propias, en contraste con el resto del pueblo.
+        </p>
+        <p>
+          La cafetería del pueblo funciona como un punto de encuentro esencial,
+          donde los personajes comparten información, sospechas y planes para
+          sobrevivir.
+        </p>
+        <p>
+          El árbol caído en la carretera marca el inicio del terror: un punto
+          sin retorno que atrapa a quienes intentan escapar y los obliga a
+          enfrentarse a lo desconocido.
+        </p>
+      </div>
+      <div id="botones">
+        <button onclick="mostrarImagen()">
+          Ver lugares icónicos de la serie
+        </button>
+        <button onclick="ocultarImagen()">Ocultar imágenes</button>
+      </div>
       <article id="articulo3">
-        <figure>
+        <figure class="abreImagen">
           <img
             class="imagen"
             src="../pictures/mansion_ColonyHouse.webp"
@@ -142,7 +169,7 @@
           />
           <figcaption>La mansión Colony House</figcaption>
         </figure>
-        <figure>
+        <figure class="abreImagen">
           <img
             class="imagen"
             src="../pictures/cafeteria.webp"
@@ -151,7 +178,7 @@
           />
           <figcaption>La cafetería del pueblo</figcaption>
         </figure>
-        <figure>
+        <figure class="abreImagen">
           <img
             class="imagen"
             src="../pictures/arbol_caido.webp"
@@ -172,6 +199,7 @@
           </p>
           <img
             class="creadores"
+            id="griffin"
             src="../pictures/img_JohnGriffin.jpg"
             alt="imagen_John_Griffin"
           />
@@ -188,6 +216,7 @@
           </p>
           <img
             class="creadores"
+            id="ultimaFoto"
             src="../pictures/rodaje.webp"
             alt="imagen_rodaje"
           />

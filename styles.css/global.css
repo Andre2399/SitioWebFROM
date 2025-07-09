@@ -41,6 +41,7 @@ color: rgb(211, 211, 69);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 1000;
 font-size: 30px;
+text-decoration: underline;
 }
 h3{
 color: rgb(143, 79, 89);
@@ -166,5 +167,8 @@ padding: 1.5rem;
 background-color: #524a4a;
 height: 600px;
 width: 250px;
+}
+.atajo{
+font-size: 1rem;
 }
 }

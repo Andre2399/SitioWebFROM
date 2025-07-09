@@ -96,6 +96,10 @@ display: none;
 button{
 display: inline-block;
 background-color: rgb(219, 103, 9);
+font-family: cursive;
+}
+button:hover {
+background-color: #45a049;
 }
 #botones{
 display: flex;
@@ -103,6 +107,9 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 2%;
+}
+figcaption{
+font-size: 0.9rem;
 }
 }
 /* CSS para tablet */
@@ -126,6 +133,10 @@ display: none;
 button{
 display: inline-block;
 background-color: rgb(219, 103, 9);
+font-family: cursive;
+}
+button:hover {
+background-color: #45a049;
 }
 #botones{
 display: flex;
@@ -133,5 +144,8 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 2%;
+}
+figcaption{
+font-size: 0.9rem;
 }
 }

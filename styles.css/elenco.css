@@ -19,3 +19,22 @@ width: 800px;
 .foto{
 filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
 }
+button{
+display: none;
+}
+/* CSS para mobile */
+@media (max-width:767px){
+.foto{
+width: 70%;
+height: 50%;
+}
+div{
+width: 100%;
+}
+.info{
+display: none;
+}
+button{
+display: inline-block;
+}
+}

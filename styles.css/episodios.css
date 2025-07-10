@@ -71,4 +71,7 @@ width: fit-content;
 text-align: center;
 max-width: 100%;
 }
+div{
+max-width: 100%;
+}
 }

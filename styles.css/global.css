@@ -145,10 +145,28 @@ font-size: 1.2rem;
 h3{
 font-size: 1.1rem;
 }
+h4{
+font-size: 1rem;
+}
+li{
+font-size: 0.8rem;
+}
 }
 /* CSS para tablet */
 @media (min-width:768px) and (max-width:1024px){
 p{
+font-size: 0.9rem;
+}
+h2{
+font-size: 1.3rem;
+}
+h3{
+font-size: 1.2rem;
+}
+h4{
+font-size: 1.1rem;
+}
+li{
 font-size: 0.9rem;
 }
 footer{

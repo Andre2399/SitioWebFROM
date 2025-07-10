@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <script src="../javaScript.js/episodios.js"></script>
     <div id="panel_hamburguesa">
       <a href="../index.html">Volver a Home</a>
       <a href="../pages/sobreLaSerie.html">Descubrí mucho más sobre FROM</a>
@@ -91,9 +92,11 @@
             supervivencia.
           </p>
         </div>
+        <button onclick="abrirListaT1()">Ver lista de episodios</button>
+        <button onclick="cerrarListaT1()">Cerrar lista</button>
         <div>
           <h4>Episodios:</h4>
-          <ol>
+          <ol id="temporada1">
             <li>Episodio 1: Título «El largo viaje del día hacia la noche»</li>
             <li>Episodio 2: Título «Cómo son las cosas ahora»</li>
             <li>Episodio 3: Título «El día de la elección»</li>
@@ -111,7 +114,12 @@
           src="../pictures/monstruo.jpeg"
           alt="imagen_monstruo"
         />
-        <img class="foto" src="../pictures/niños.webp" alt="imagen.niños" />
+        <img
+          id="fotoOculta"
+          class="foto"
+          src="../pictures/niños.webp"
+          alt="imagen.niños"
+        />
         <div>
           <h3>Temporada 2</h3>
           <p>
@@ -125,9 +133,11 @@
             incógnitas sin resolver.
           </p>
         </div>
+        <button onclick="abrirListaT2()">Abrir lista de episodios</button>
+        <button onclick="cerrarListaT2()">Cerrar lista</button>
         <div>
           <h4>Episodios:</h4>
-          <ol>
+          <ol id="temporada2">
             <li>Episodio 1: Título «Extraños en una tierra extraña»</li>
             <li>Episodio 2: Título «La amabilidad de los extraños»</li>
             <li>Episodio 3: Título «Atadura»</li>
@@ -141,6 +151,7 @@
           </ol>
         </div>
         <img
+          id="fotoOculta2"
           class="foto"
           src="../pictures/simbolos.png"
           alt="imagen_simbolos"
@@ -163,9 +174,11 @@
             sobrenaturales y las posibilidades de escape.
           </p>
         </div>
+        <button onclick="abrirListaT3()">Abrir lista de episodios</button>
+        <button onclick="cerrarListaT3()">Cerrar lista</button>
         <div>
           <h4>Episodios:</h4>
-          <ol>
+          <ol id="temporada3">
             <li>Episodio 1: Título «Destrozar»</li>
             <li>Episodio 2: Título «Cuando nos vayamos»</li>
             <li>Episodio 3: Título «Ratonera»</li>

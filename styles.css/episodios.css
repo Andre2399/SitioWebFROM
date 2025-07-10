@@ -26,3 +26,49 @@ filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
 .foto:hover{
 transform: scale(1.2);
 }
+button{
+display: none;
+}
+/* CSS para mobile */
+@media (max-width:767px){
+body{
+margin:0;
+}
+button{
+display: block;
+}
+h4{
+display: none;
+}
+ol{
+display: none;
+}
+.foto{
+width: 300px;
+}
+#fotoOculta{
+display: none;
+}
+#fotoOculta2{
+display: none;
+}
+iframe{
+width: 90%;
+}
+.novedad {
+font-size: 1rem;
+}
+h3{
+text-align: center;
+}
+#seccion{
+gap: 1.5rem;
+max-width: 100%;
+}
+#titulo , .parrafos{
+margin: auto;
+width: fit-content;
+text-align: center;
+max-width: 100%;
+}
+}

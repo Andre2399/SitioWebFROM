@@ -13,11 +13,12 @@ flex-flow: row wrap;
 justify-content: center;
 gap: 50px;
 }
-div{
-width: 800px;
+.info{
+width: 500px;
 }
 .foto{
 filter: drop-shadow(0 0 0.75rem rgb(94, 87, 87));
+width: 40%;
 }
 button{
 display: none;
@@ -33,11 +34,33 @@ width: 100%;
 }
 .info{
 display: none;
+width: 100%;
 }
 button{
 display:inline-block;
 }
 .botones{
 width: fit-content;
+}
+ul{
+gap: 20px;
+}
+}
+/* CSS para tablet */
+@media (min-width:768px) and (max-width:1024px){
+.info{
+display: none;
+}
+button{
+display:inline-block;
+}
+ul{
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+gap: 30px;
+}
+.foto{
+width: 50%;
 }
 }

@@ -115,6 +115,9 @@ margin: 20px;
 }
 /* CSS para mobile */
 @media (max-width:767px) { 
+* {
+box-sizing: border-box;
+}
 #encabezado{
 font-size: 1.3rem;
 }
@@ -129,11 +132,12 @@ font-size: 0.6rem;
 }
 a{
 padding: 1.5rem;
+margin-top: 0.5rem;
 font-size: 0.9rem;
 }
 #panel_hamburguesa{
 background-color: #524a4a;
-height: 400px;
+height: 430px;
 width: 200px;
 }
 .atajo{
@@ -154,6 +158,9 @@ font-size: 0.8rem;
 }
 /* CSS para tablet */
 @media (min-width:768px) and (max-width:1024px){
+* {
+box-sizing: border-box;
+}
 p{
 font-size: 0.9rem;
 }
@@ -183,7 +190,7 @@ padding: 1.5rem;
 }
 #panel_hamburguesa{
 background-color: #524a4a;
-height: 600px;
+height: 450px;
 width: 250px;
 }
 .atajo{

@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <script src="../javaScript.js/curiosidades.js"></script>
     <div id="panel_hamburguesa">
       <a href="../index.html">Volver a Home</a>
       <a href="../pages/sobreLaSerie.html">Descubrí mucho más sobre FROM</a>
@@ -72,16 +73,27 @@
             delicadas pistas que siembran un pequeño sentimiento de certeza,
             hacen imposible no congeturar locas teorías.
           </p>
-          <p>
+          <span class="info" onclick="mostrarParrafos()">...Ver más</span
+          ><span class="info" onclick="ocultarParrafos()">Ver menos</span>
+          <p class="parrafo">
             En redes sociales se ha librado una batalla de hipótesis entre los
             miles de espectadores.
           </p>
-          <p>
+          <p class="parrafo">
             Es así que a lo largo de toda la serie, se han ido planteando
             posibles escenarios explicativos, pero al final nadie sabe con
             certeza la verdadera historia detrás de toda la trama.
           </p>
+          <p id="click">
+            Hacé click en el logo y decubrí algunas de las teorías más locas!
+          </p>
         </div>
+        <img
+          onclick="verVideos()"
+          id="youtube"
+          src="../pictures/logo_Youtube.webp"
+          alt="logo_youtube"
+        />
         <div id="contenedorVideos">
           <iframe
             width="560"
@@ -103,6 +115,7 @@
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <button class="boton" onclick="ocultarVideos()">Ocultar videos</button>
         </div>
       </section>
       <section id="series">
@@ -152,7 +165,13 @@
           Los internautas han dejado algunas críticas y comentarios en internet,
           compartiendo sus opiniones e impacto personal sobre la serie.
         </p>
-        <ul>
+        <button class="boton" onclick="mostrarComentarios()">
+          Mirá algunos comentarios de la gente..
+        </button>
+        <button class="boton" onclick="ocultarComentarios()">
+          Ocultar comentarios
+        </button>
+        <ul id="criticas">
           <li class="personas">
             Eric B. dijo:
             <q

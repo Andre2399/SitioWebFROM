@@ -41,3 +41,118 @@ width: 1000px;
 .titulo{
 text-align: center;
 }
+.info{
+display: none;
+}
+.boton{
+display: none;
+}
+#youtube{
+display: none;
+}
+#click{
+display: none;
+}
+/* CSS para mobile */
+@media (max-width:767px){
+.info{
+display: block;
+color: rgb(233, 142, 31);
+padding: 5px;
+text-decoration-line: underline;
+}
+.parrafo{
+display: none;
+}
+#youtube{
+display: inline-block;
+width: 30%;
+height: fit-content;
+filter: drop-shadow(0 0 0.75rem rgb(102, 86, 90));
+}
+.boton{
+display: inline-block;
+padding: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 0.9rem;
+}
+#teorias{
+width: 100%;
+gap: 0.5rem;
+}
+.parrafoTeorias{
+width: 100%;
+}
+#contenedorVideos{
+display: none;
+width: 100%;
+}
+#series , #conexion , #ultimo{
+width: 100%;
+}
+iframe{
+width: 100%;
+filter: drop-shadow(0 0 0.75rem rgb(194, 137, 149));
+}
+.caratulas{
+margin-top:1rem ;
+width: 50%;
+}
+#criticas{
+display: none;
+}
+#ultimo{
+display: inline-flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 0.5rem;
+}
+}
+/* CSS para tablet */
+@media (min-width:768px) and (max-width:1024px){
+#youtube{
+display: inline-block;
+width: 30%;
+height: fit-content;
+filter: drop-shadow(0 0 0.75rem rgb(102, 86, 90));
+}
+#contenedorVideos{
+display: none;
+width: 100%;
+}
+iframe{
+width: 100%;
+}
+#teorias{
+gap: 1rem;
+width: 100%;
+}
+.parrafoTeorias{
+padding: 0.5rem;
+}
+#series , #conexion , #ultimo{
+width: 100%;
+}
+#ultimo{
+display: inline-flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 0.5rem;
+}
+#click{
+display: block;
+}
+.boton{
+display: inline-block;
+padding: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 0.9rem;
+}
+#criticas{
+display: none;
+}
+}

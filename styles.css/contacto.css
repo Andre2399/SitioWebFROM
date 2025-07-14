@@ -55,3 +55,14 @@ justify-content: center;
 gap: 60px;
 padding: 50px;
 }
+/* CSS para mobile */
+@media (max-width:767px){
+h2 , .primero , fieldset , #links{
+width: 100%;
+text-align: center;
+}
+fieldset{
+padding: 0.5rem;
+margin-top: 2rem;
+}
+}

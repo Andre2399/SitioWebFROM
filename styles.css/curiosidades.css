@@ -85,6 +85,7 @@ gap: 0.5rem;
 }
 .parrafoTeorias{
 width: 100%;
+padding: 1rem;
 }
 #contenedorVideos{
 display: none;

@@ -70,6 +70,9 @@ width: 30%;
 height: fit-content;
 filter: drop-shadow(0 0 0.75rem rgb(102, 86, 90));
 }
+#click{
+display: block;
+}
 .boton{
 display: inline-block;
 padding: 5px;

@@ -72,7 +72,7 @@
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
-        <p>Instrumental de la canción principal de la serie</p>
+        <p id="p">Instrumental de la canción principal de la serie</p>
       </div>
       <div id="articulos12">
         <article id="articulo1">
@@ -107,7 +107,9 @@
               habitado por trabajadores de una base militar cercana en la década
               de 1950 a 1960.
             </p>
-            <p>
+            <p class="verMas" onclick="mostrarParrafos()">..Ver más</p>
+            <p class="verMas" onclick="ocultarParrafos()">Ver menos</p>
+            <p class="noParrafo">
               La serie se rodó en una zona que anteriormente fue residencial.
               Este asentamiento, que contaba con escuelas, una iglesia y
               tiendas, fue demolido en 2014. Sin embargo, muchas de las calles
@@ -115,7 +117,7 @@
               construir el pueblo ficticio que aparece en la serie. Este hecho
               ha dado lugar a una sensación de autenticidad.
             </p>
-            <p>
+            <p class="noParrafo">
               Un dato curioso: la ciudad de Halifax es conocida por su
               vinculación al desastre del Titanic, ya que varios cuerpos de las
               víctimas fueron recuperados en el puerto y enterrados en un
@@ -123,6 +125,7 @@
             </p>
           </div>
           <iframe
+            id="mapa"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2873378.341894227!2d-63.028288950000004!3d45.30774814999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b591298de18cf45%3A0x102581ef8cf0940!2sNueva%20Escocia%2C%20Canad%C3%A1!5e0!3m2!1ses!2sar!4v1751913405968!5m2!1ses!2sar"
             width="600"
             height="450"
@@ -133,7 +136,7 @@
           ></iframe>
         </article>
       </div>
-      <h3 class="titulo0">Algunos lugares icónicos de la serie</h3>
+      <h3 class="titulo1">Algunos lugares icónicos de la serie</h3>
       <div id="escenarios">
         <p>
           En esta serie los escenarios juegan un papel fundamental para

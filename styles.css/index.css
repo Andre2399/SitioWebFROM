@@ -34,6 +34,7 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
+margin-top: 1.5rem;
 }
 }
 @media(min-width:768px) and (max-width:1024px){
@@ -51,9 +52,11 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 text-align: center;
+margin-top: 1.5rem;
 }
 #seccion2{
-max-width: 800px;
+grid-template-columns: auto auto;
+gap: 3%;
 }
 }
 

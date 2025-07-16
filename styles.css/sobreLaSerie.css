@@ -26,17 +26,18 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 }
-.titulo0 , .titulo1{
+.titulo1{
 margin: auto;
 width: fit-content;
 padding: 50px;
 }
 #articulos45{
 display:flex;
-flex-wrap: wrap;
+flex-direction: column;
 justify-content: center;
+align-items: center;
 }
-#articulo5{
+#articulo5 , #articulo4{
 max-width: 870px;
 }
 .creadores{
@@ -64,23 +65,37 @@ text-align: center;
 button{
 display: none;
 }
+.verMas{
+display: none;
+}
 /* CSS para mobile */
 @media (max-width:767px) {
+h2{
+text-align: center;
+}
 iframe{
-width: 280px;
-height: 130px;
+width: 80%;
+height: 50%;
+}
+#mapa{
+margin-left: 2.5rem;
 }
 .familia{
-width: 250px;
+width: 80%;
+margin-left: 2.5rem;
+}
+figcaption{
+margin-left: 2.5rem;
+font-size: 0.9rem;
 }
 #ultimaFoto , .imagen{
-width: 350px;
+width: 100%;
 }
 #griffin{
 height: 200px;
 }
 #articulo1 , #articulo2 , #articulo4 , #articulo5 , #escenarios{
-max-width: 600px;
+width: 100%;
 }
 #escenarios{
 margin: 0 auto;
@@ -96,7 +111,7 @@ display: none;
 button{
 display: inline-block;
 background-color: rgb(219, 103, 9);
-font-family: cursive;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button:hover {
 background-color: #45a049;
@@ -108,18 +123,49 @@ justify-content: center;
 align-items: center;
 gap: 2%;
 }
-figcaption{
-font-size: 0.9rem;
+#p{
+margin: 0;
+}
+.titulo1{
+padding: 2rem;
+}
+#articulos12{
+gap: 2rem;
+}
+.verMas{
+display: block;
+color: rgb(233, 142, 31);
+padding: 5px;
+text-decoration-line: underline;
+width: fit-content;
+}
+.verMas:hover{
+color: #45a049;
+}
+.noParrafo{
+display: none;
 }
 }
 /* CSS para tablet */
 @media (min-width:768px) and (max-width:1024px){
+#articulo1 , #articulo2 , #articulo4 , #articulo5 , #escenarios{
+width: 100%;
+}
 iframe{
-width: 300px;
-height: 200px;
+width: 50%;
+height: 40%;
+}
+#mapa{
+width: 80%;
+margin-left: 3.7rem;
 }
 .familia{
-width: 300px;
+width: 70%;
+margin-left: 6rem;
+}
+figcaption{
+font-size: 0.9rem;
+margin-left: 6rem;
 }
 #ultimaFoto , .imagen{
 width: 450px;
@@ -133,7 +179,9 @@ display: none;
 button{
 display: inline-block;
 background-color: rgb(219, 103, 9);
-font-family: cursive;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1rem;
+padding: 0.5rem;
 }
 button:hover {
 background-color: #45a049;
@@ -145,7 +193,20 @@ justify-content: center;
 align-items: center;
 gap: 2%;
 }
-figcaption{
-font-size: 0.9rem;
+#p{
+margin: 0;
+}
+.verMas{
+display: block;
+color: rgb(233, 142, 31);
+padding: 5px;
+text-decoration-line: underline;
+width: fit-content;
+}
+.verMas:hover{
+color: #45a049;
+}
+.noParrafo{
+display: none;
 }
 }

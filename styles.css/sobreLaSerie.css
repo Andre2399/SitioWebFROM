@@ -168,7 +168,10 @@ font-size: 0.9rem;
 margin-left: 6rem;
 }
 #ultimaFoto , .imagen{
-width: 450px;
+width: 80%;
+}
+.imagen{
+margin-left: 3.8rem;
 }
 #griffin{
 height: 300px;

@@ -60,6 +60,10 @@ display: block;
 color: rgb(233, 142, 31);
 padding: 5px;
 text-decoration-line: underline;
+width: fit-content;
+}
+.info:hover{
+color: #45a049;
 }
 .parrafo{
 display: none;
@@ -78,6 +82,10 @@ display: inline-block;
 padding: 5px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 0.9rem;
+background-color: rgb(219, 103, 9);
+}
+.boton:hover{
+background-color: #45a049;
 }
 #teorias{
 width: 100%;
@@ -155,6 +163,10 @@ display: inline-block;
 padding: 5px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 0.9rem;
+background-color: rgb(219, 103, 9);
+}
+.boton:hover{
+background-color: #45a049;
 }
 #criticas{
 display: none;

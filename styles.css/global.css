@@ -113,7 +113,7 @@ color: rgb(172, 147, 152);
 text-align: center;
 margin: 20px;
 }
-/* CSS para mobile */
+/* CSS global para mobile */
 @media (max-width:767px) { 
 * {
 box-sizing: border-box;
@@ -156,7 +156,7 @@ li{
 font-size: 0.8rem;
 }
 }
-/* CSS para tablet */
+/* CSS global para tablet */
 @media (min-width:768px) and (max-width:1024px){
 * {
 box-sizing: border-box;
